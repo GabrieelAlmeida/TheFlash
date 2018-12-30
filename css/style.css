@@ -1,0 +1,141 @@
+
+/* ==========================
+
+    Autor: Gabriel Almeida
+
+   ==========================
+*/
+
+@media only screen and (min-width:769px){
+
+body{
+    margin:0;
+    padding:0;
+}
+
+#back{
+    position: absolute;
+    top:0;
+    left:25%;
+    background-color:#C52C2F;
+    width:50%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle{
+    width:60%;
+    height:55%;
+    background-color:white;
+    border-radius:50%;
+    border:20px solid #FED106;
+}
+
+#triangle1{
+    position:absolute;
+    left:40%;
+    top:2%;
+    width:40%;
+    height:35%;
+    background-color:#FED106;
+    clip-path: polygon(100% 0%, 0% 100%, 35% 100%);
+
+}
+
+#middle{
+    position:absolute;
+    left:22%;
+    top:32%;
+    width:46%;
+    height:36%;
+    background-color:#FED106;
+    clip-path: polygon(70% 0, 100% 0, 40% 75%, 15% 75%);
+}
+
+#triangle2{
+    position: absolute;
+    left:17%;
+    top:50%;
+    width:46%;
+    height:37%;
+    background-color:#FED106;
+    clip-path:polygon(65% 0, 0 100%, 100% 0);
+
+}
+
+}
+
+@media only screen and (max-width:768px){
+
+    body{
+        margin:0;
+        padding:0;
+    }
+
+    #back{
+        position: absolute;
+        top:0;
+        left:20%;
+        background-color:#C52C2F;
+        width:60%;
+        height: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #circle{
+        width:65%;
+        height:60%;
+        background-color:white;
+        border-radius:50%;
+        border:20px solid #FED106;
+    }
+
+    #triangle1{
+        position:absolute;
+        left:40%;
+        top:2%;
+        width:44%;
+        height:35%;
+        background-color:#FED106;
+        clip-path: polygon(100% 0%, 0% 100%, 35% 100%);
+    
+    }
+
+    #middle{
+        position:absolute;
+        left:22%;
+        top:32%;
+        width:48%;
+        height:36%;
+        background-color:#FED106;
+        clip-path: polygon(70% 0, 100% 0, 40% 75%, 15% 75%);
+    }
+
+    #triangle2{
+        position: absolute;
+        left:17%;
+        top:50%;
+        width:48%;
+        height:37%;
+        background-color:#FED106;
+        clip-path:polygon(65% 0, 0 100%, 100% 0);
+    
+    }
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+
